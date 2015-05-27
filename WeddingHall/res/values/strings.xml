@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wedding Hall</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_setting">Settings</string>
+    <string name="pick_item">Pick time</string>
+    <string name="time_selected"></string>
+    <string name="selectcode">Pick time</string>
+
+    <string-array name="strArr">
+        <item>Belagavi</item>
+        <item>Dharwad</item>
+        <item>Hubli</item>
+        <item>Banglore</item>
+    </string-array>
+
+    <string name="title_activity_tab2">Wedding Hall</string>
+    <string name="action_search">Search</string>
+    <string name="menu_overflow">menu overflow</string>
+    <string name="action_location_found">Location Found</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_contacts">Contacts</string>
+    <string name="action_help">Help</string>
+    <string name="action_check_updates">Check for Updates</string>
+    <string name="title_pluse7demo">Wedding Hall</string>
+
+    <string-array name="dropdown">
+        <item>First Item</item>
+        <item>Second Item</item>
+    </string-array>
+
+    <string name="title_activity_list">Wedding Hall</string>
+    <string name="hello">Hello</string>
+    <string name="title_activity_listv">Wedding Hall</string>
+    <string name="title_activity_list_view_adapter">ListViewAdapterActivity</string>
+    <string name="ranklabel">"Rank :"</string>
+    <string name="countrylabel">"Hall :"</string>
+    <string name="populationlabel">"Place :"</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="action_settings"></string>
+    <string name="business_prompt">Choose a Decorator Type</string>
+    <string name="country_prompt">Choose a Catering Type</string>
+    <string name="photography_prompt">Choose a Photography Type</string>
+
+    <string-array name="country_arrays">
+        <item> North Indian</item>
+        <item>Chats</item>
+        <item>Chanies</item>
+        <item>Italian</item>
+        <item>Singapore</item>
+        <item>South Indian</item>
+    </string-array>
+
+    <string name="title_activity_fetch_dates">Wedding</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_payby_credit">PaybyCredit</string>
+    <string name="title_activity_online_pay">OnlinePay</string>
+    
+    <string name="signup">SignUp</string>
+     <string name="main">Main</string>
+
+</resources>

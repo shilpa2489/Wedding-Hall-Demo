@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+
+    
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Catering"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spCountries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt" >
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Decorator Type"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spBussinessType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/business_prompt" >
+    </Spinner>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Photography Type"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinner11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/photography_prompt" >
+    </Spinner>
+
+    <Button
+        android1:id="@+id/booking"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:orientation="horizontal"
+        android1:text="Book Hall" 
+        />
+
+    <Button
+        android1:id="@+id/cancel"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        
+        android1:orientation="horizontal"
+        android1:text="Cancel" />
+
+</LinearLayout>
